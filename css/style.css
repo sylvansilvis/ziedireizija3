@@ -1,0 +1,88 @@
+
+body{
+    margin: 0;
+    background-image: url("../images/greenbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 1260px;
+    height: auto;
+    margin: 0px auto;
+}
+
+/* Header */
+
+.main-slider{
+    position: relative;
+    height: 252px;
+    background-image: url("../images/top-banner.png");
+}
+
+/* Nav */
+
+.nav{
+    position: relative;
+    top: 20px;
+    width: 1280px;
+    height: 77px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(105, 105, 105, 0.2), 0 4px 8px 0px rgba(105, 105, 105, 0.2);
+}
+
+.logo{
+    background-image: url("../images/top-logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 366px;
+    height: 195px;
+    position: absolute;
+    top:0px;
+    left: 446px;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style :none;
+}
+
+.nav ul li {
+    display: inline-block;
+    line-height: 77px;
+    padding-left: 10px;
+}
+
+.nav ul li:nth-child(4) {
+    padding-right: 366px;
+}
+
+.nav ul li a{
+    /* width: 125px; */
+    text-decoration:none;
+    color: #d6c59a;
+    font-family: "Times New Roman PSMT";
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* Nav Logo */
+
+/* ends */
+
+/* TRIANGLE */
+
+.triangle-left{
+    border-right: 12px solid #cebd94;
+    border-bottom: 9px solid transparent;
+    border-left: 0px solid transparent;
+    position: absolute;
+}
+
+.triangle-right{
+    border-right: 0px solid transparent;
+    border-bottom: 9px solid transparent; 
+    border-left: 12px solid #cebd94; 
+    position: absolute;
+}
