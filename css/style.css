@@ -1,4 +1,4 @@
-
+/*  TEST TO GIT */
 body{
     margin: 0;
     background-image: url("../images/greenbg.png");
@@ -16,30 +16,20 @@ body{
 
 .main-slider{
     position: relative;
-    height: 252px;
+    height: 478px;
     background-image: url("../images/top-banner.png");
+    background-repeat: no-repeat;
 }
 
 /* Nav */
 
 .nav{
     position: relative;
-    top: 20px;
-    width: 1280px;
-    height: 77px;
+    top: 30px;
+    left: -12px;
+    width: 1284px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(105, 105, 105, 0.2), 0 4px 8px 0px rgba(105, 105, 105, 0.2);
-}
-
-.logo{
-    background-image: url("../images/top-logo.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 366px;
-    height: 195px;
-    position: absolute;
-    top:0px;
-    left: 446px;
 }
 
 .nav ul {
@@ -51,7 +41,7 @@ body{
 .nav ul li {
     display: inline-block;
     line-height: 77px;
-    padding-left: 10px;
+    padding-left: 19px;
 }
 
 .nav ul li:nth-child(4) {
@@ -59,17 +49,23 @@ body{
 }
 
 .nav ul li a{
-    /* width: 125px; */
     text-decoration:none;
     color: #d6c59a;
     font-family: "Times New Roman PSMT";
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 400;
 }
 
-/* Nav Logo */
-
-/* ends */
+.logo{
+    background-image: url("../images/top-logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 366px;
+    height: 195px;
+    position: absolute;
+    top: -30px;
+    left: 460px;
+}
 
 /* TRIANGLE */
 
@@ -78,6 +74,7 @@ body{
     border-bottom: 9px solid transparent;
     border-left: 0px solid transparent;
     position: absolute;
+    left: 0;
 }
 
 .triangle-right{
@@ -85,4 +82,147 @@ body{
     border-bottom: 9px solid transparent; 
     border-left: 12px solid #cebd94; 
     position: absolute;
+    right: 0;
+}
+
+/* LANGUAGE */
+.lang{
+    width: 60px;
+    position: absolute;
+    top: 35px;
+    right: -90px;
+}
+
+.lang li {
+    margin-bottom: 7px;
+    list-style-type: none;
+}
+
+.lang li a{
+    text-decoration: none;
+    color: #d6c59a;
+    font-family: "Times New Roman PSMT";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.lang .lv{
+    color: cadetblue;
+}
+
+
+/* -------------------- */
+
+
+.text-box{
+
+    width: auto;
+    height: 790px;
+    background-color: rgb(251, 251, 251);
+}
+
+.name-of-page{
+    width: 100%;
+    height: 150px;
+}
+
+/* NAME OF LINE */
+
+.lines h1 {
+    padding-top: 8px;
+    margin: 0px;
+    position: relative;
+  
+    overflow: hidden;
+    text-align: center;
+    color: #d6c59a;
+    font-family: "Liberty TL";
+    font-size: 112px;
+    font-weight: 400;
+    line-height: 150.53px;
+}
+
+.lines h1:after {
+    position: absolute;
+    top: 56%;
+    overflow: hidden;
+    width: 490px;
+    height: 1px;
+    content: '\a0';
+    background-color: #f2d852;
+    -webkit-box-shadow: 0px 0px 1px 1px rgba(248,233,158,1);
+    -moz-box-shadow: 0px 0px 1px 1px rgba(248,233,158,1);
+    box-shadow: 0px 0px 1px 1px rgba(248,233,158,1);
+}
+
+.lines h1:before{
+    position: absolute;
+    top: 56%;
+    overflow: hidden;
+    width: 490px;
+    height: 1px;
+    content: '\a0';
+    background-color: #f2d852;
+    -webkit-box-shadow: 0px 0px 1px 1px rgba(248,233,158,1);
+    -moz-box-shadow: 0px 0px 1px 1px rgba(248,233,158,1);
+    box-shadow: 0px 0px 1px 1px rgba(248,233,158,1);
+}
+
+.lines h1:after {
+    margin-left: 125px;
+    text-align: right;
+}
+
+.lines h1:before {
+    margin-left: -610px;
+    text-align: right;
+}
+.lines {
+    background-color: rgb(251, 251, 251);
+}
+/* end*/
+
+.about{
+    padding-top: 0;
+}
+
+.box-for-text-1{
+    float: left;
+    height: auto;
+    margin 0px 50px 0px 50px;
+}
+
+.box-for-text-2{
+    float: right;
+    height: auto;
+}
+
+.box-for-text-1, .box-for-text-2{
+    width: 45%;
+    height: 409px;
+}
+
+.box-for-text-1 p, .box-for-text-2 p{
+    color: #6d6e71;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 47.92px;
+    text-align: justify;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.bottom-text{
+    top: 79px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    color: #6d6e71;
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
 }
