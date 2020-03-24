@@ -8,7 +8,7 @@ body{
 
 .container{
     width: 1260px;
-    height: auto;
+    height: 975px;
     margin: 0px auto;
 }
 
@@ -110,14 +110,10 @@ body{
     color: cadetblue;
 }
 
-
 /* -------------------- */
-
-
-.text-box{
-
+.content{
     width: auto;
-    height: 790px;
+    height: 545px;
     background-color: rgb(251, 251, 251);
 }
 
@@ -132,12 +128,11 @@ body{
     padding-top: 8px;
     margin: 0px;
     position: relative;
-  
     overflow: hidden;
     text-align: center;
     color: #d6c59a;
     font-family: "Liberty TL";
-    font-size: 112px;
+    font-size: 70px;
     font-weight: 400;
     line-height: 150.53px;
 }
@@ -146,7 +141,7 @@ body{
     position: absolute;
     top: 56%;
     overflow: hidden;
-    width: 490px;
+    width: 300px;
     height: 1px;
     content: '\a0';
     background-color: #f2d852;
@@ -159,7 +154,7 @@ body{
     position: absolute;
     top: 56%;
     overflow: hidden;
-    width: 490px;
+    width: 300px;
     height: 1px;
     content: '\a0';
     background-color: #f2d852;
@@ -169,12 +164,12 @@ body{
 }
 
 .lines h1:after {
-    margin-left: 125px;
+    margin-left: 105px;
     text-align: right;
 }
 
 .lines h1:before {
-    margin-left: -610px;
+    margin-left: -405px;
     text-align: right;
 }
 .lines {
@@ -189,25 +184,27 @@ body{
 .box-for-text-1{
     float: left;
     height: auto;
-    margin 0px 50px 0px 50px;
+    margin-left: 90px;
 }
 
 .box-for-text-2{
     float: right;
     height: auto;
+    margin-right: 90px;
 }
 
 .box-for-text-1, .box-for-text-2{
-    width: 45%;
-    height: 409px;
+    width: 38%;
+    height: auto;
 }
 
 .box-for-text-1 p, .box-for-text-2 p{
+    margin-top: 0px;
     color: #6d6e71;
     font-family: Georgia;
     font-size: 18px;
     font-weight: 300;
-    line-height: 47.92px;
+    line-height: 35px;
     text-align: justify;
 }
 
@@ -226,3 +223,44 @@ body{
     font-size: 17px;
     font-weight: 400;
 }
+
+.green-text{
+    width: auto;
+    color: #2fd39c;
+    text-align: center;
+}
+
+/* FOOTER */
+
+.footer{
+    width: 1260px;
+}
+
+.author-text{
+    position: relative;
+    width: 230px;
+    margin-top: 90px;
+    margin-left: 45px;
+    color: #8fd8be;
+    font-family: "Open Sans";
+}
+
+.made-by-text-and-icon{
+    position: relative;
+    float: right;
+    width: 150px;
+    display: inline-block;
+}
+
+.made-by-text-and-icon p{
+    width: 65px;
+}
+
+.icone{
+    top: 0px;
+    background-image: url("../images/sem-gaiss.png");
+    width: 36px;
+    height: 36px;
+}
+
+
